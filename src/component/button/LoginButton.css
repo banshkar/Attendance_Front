@@ -1,0 +1,49 @@
+.login{
+    position: relative;
+    left: 10rem;
+    width: 5rem;
+    height: 2rem;
+     bottom: .5rem;
+     background-color: rgb(222, 13, 169);
+     border: none;
+     border-radius: .5rem;
+}
+@media (max-width:500px){
+
+    .login{
+        position: relative;
+        left: 30rem;
+        width: 5rem;
+        height: 2rem;
+         bottom: .5rem;
+         background-color: rgb(222, 13, 169);
+         border: none;
+         border-radius: .5rem;
+         bottom: 1.5rem;
+    }
+}
+@media (max-width:900px){
+    .login{
+        position: relative;
+        left: 50rem;
+        width: 5rem;
+        height: 2rem;
+         bottom: .5rem;
+         background-color: rgb(222, 13, 169);
+         border: none;
+         border-radius: .5rem;
+         bottom: 1.5rem;
+    }
+}
+@media (max-width:1700px){
+    .login{
+        position: relative;
+        left: 5rem;
+        width: 5rem;
+        height: 2rem;
+         bottom: .5rem;
+         background-color: rgb(222, 13, 169);
+         border: none;
+         border-radius: .5rem;
+    }
+}

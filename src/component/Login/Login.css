@@ -1,0 +1,117 @@
+.form{
+    height: 400px;
+    width: 700px;
+    /* border: 1rem solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    position: absolute;
+    left: 350px;
+    flex-direction: column;
+   
+}
+.form_fild{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.4);
+    float: left;
+    width: 70%;
+    border-radius: 2%;
+    height: 90vh;
+}
+.input{
+   text-decoration: none;
+   outline: none;
+   border: none;
+   border-radius: .5rem;
+  
+}
+#username{
+    padding: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#password{
+    padding: 10px;
+    width: 200px;
+    margin-left: 25px;
+}
+.heading{
+    text-align: center;
+    position:absolute;
+    left: 200px;
+    top: 40px;
+    z-index: 5;
+}
+.btn{
+    height: 40px;
+    width: 85px;
+    padding:10px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(224, 218, 98);
+    border-radius: 0.5rem;
+
+}
+.btn2{
+    height: 40px;
+    width: 85px;
+    padding:10px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(228, 208, 208);
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+.error{
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+    right: 4rem;
+    color: rgb(189, 8, 8);
+}
+@media (max-width:700px){
+    .form{
+        height: 400px;
+        width: 600px;
+        /* border: 1rem solid black; */
+        display: flex;
+        justify-content: center;
+        margin-top: 40px; 
+        position: absolute;
+        left: -30px;
+        flex-direction: column;
+       
+    }
+}
+@media (max-width:900px){
+    .form{
+        height: 400px;
+        width: 500px;
+        /* border: 1rem solid black; */
+        display: flex;
+        justify-content: center;
+        margin-top: 40px; 
+        position: absolute;
+        left: -40px;
+        flex-direction: column;
+       
+    }
+}
+@media (max-width:1700px){
+    .form{
+        height: 400px;
+        width: 700px;
+        /* border: 1rem solid black; */
+        display: flex;
+        justify-content: center;
+        margin-top: 40px; 
+        position: absolute;
+        left: 30px;
+        flex-direction: column;
+       
+    }
+}
